@@ -19,5 +19,11 @@
   "bugs": {
     "url": "https://github.com/OrganicClick/Object-oriented-Programming-Challenge-Luper/issues"
   },
-  "homepage": "https://github.com/OrganicClick/Object-oriented-Programming-Challenge-Luper#readme"
+  "homepage": "https://github.com/OrganicClick/Object-oriented-Programming-Challenge-Luper#readme",
+  "dependencies": {
+    "inquirer": "^9.2.15"
+  },
+  "devDependencies": {
+    "jest": "^29.7.0"
+  }
 }
