@@ -96,6 +96,11 @@ Additional Tools: GitHub
 Development was assisted by the following resources:
  - Xpert Learning Assistant provided by the GWU Coding Boot Camp
  - Project guidelines, initial screenshots, reference mock-up, and accepted terms of submission provided by GWU Coding Boot Camp
+ - Example of SVG Logo (https://static.fullstack-bootcamp.com/fullstack-ground/module-10/circle.svg)
+ - SVG Tutorial (https://developer.mozilla.org/en-US/docs/Web/SVG/Tutorial)
+ - SVG Tutorial - Basic Shapes (https://developer.mozilla.org/en-US/docs/Web/SVG/Tutorial/Basic_Shapes)
+ - SVG Tutorial - Text (https://developer.mozilla.org/en-US/docs/Web/SVG/Tutorial/Texts)
+ - SVG VS Code Extension (https://marketplace.visualstudio.com/items?itemName=jock.svg)
 
 ## Contact
 To contact the owner of this repo, OrganicClick, please reach out via OrganicClick@exampleemail.com
