@@ -1,0 +1,23 @@
+{
+  "name": "object-oriented-programming-challenge-luper",
+  "version": "1.0.0",
+  "description": "## Table of Contents - [Description](#description) - [User Story](#user-story) - [Acceptance Criteria](#acceptance-criteria) - [Installation](#installation) - [Usage](#usage) - [Contributing](#contributing) - [License](#license) - [Link to Video Walkthrough](#link-to-video-walkthrough) - [Technologies Used](#technologies-used) - [Credits](#credits) - [Contact](#contact)",
+  "main": "index.js",
+  "directories": {
+    "example": "examples",
+    "lib": "lib"
+  },
+  "scripts": {
+    "test": "test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/OrganicClick/Object-oriented-Programming-Challenge-Luper.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/OrganicClick/Object-oriented-Programming-Challenge-Luper/issues"
+  },
+  "homepage": "https://github.com/OrganicClick/Object-oriented-Programming-Challenge-Luper#readme"
+}
