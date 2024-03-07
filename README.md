@@ -8,6 +8,10 @@
 - [Usage](#usage)
 - [Contributing](#contributing)
 - [License](#license)
+- [Link to Video Walkthrough](#link-to-video-walkthrough)
+- [Technologies Used](#technologies-used)
+- [Credits](#credits)
+- [Contact](#contact)
 
 ## Description
 
@@ -68,10 +72,18 @@ If you have suggestions or contributions to add, please follow the guidelines li
 ## License
 This challenge is provided under the MIT License. See the [LICENSE](LICENSE) file for details.
 
-## Screenshots
+## Link to Video Walkthrough
 
 ## Technologies Used
-Frontend: HTML, CSS
+JavaScript
+
+Object-oriented Programming
+
+Jest (For running the unit tests)
+
+Inquirer (For collecting input from the user)
+
+SVG (Scalable Vector Graphics)
 
 Version Control: Git
 
@@ -81,8 +93,6 @@ Additional Tools: GitHub
 ## Credits
 Development was assisted by the following resources:
  - Xpert Learning Assistant provided by the GWU Coding Boot Camp
- - Starter code cloned from https://github.com/coding-boot-camp/urban-octo-telegram, created by Github 
- contributors Xandromus (Xander Rapstine) and Georgeyoo (George)
  - Project guidelines, initial screenshots, reference mock-up, and accepted terms of submission provided by GWU Coding Boot Camp
 
 ## Contact
