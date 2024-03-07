@@ -39,17 +39,30 @@ WHEN I open the `logo.svg` file in a browser
 THEN I am shown a 300x200 pixel image that matches the criteria I entered
 
 ## Installation
-To work on this challenge, follow these steps:
-1. Clone the repository to your local machine.
-2. Open the project in your preferred code editor.
-3. Review the existing code in the HTML and CSS files.
+
+1. Clone the repository to your local machine using the following command:
+   - git clone https://github.com/your-username/svg-logo-maker.git
+
+
+2. Navigate to the project directory:
+   - cd svg-logo-maker
+
+
+3. Install the necessary dependencies:
+   - npm install
 
 ## Usage
-To complete the challenge, follow these steps:
-1. Identify areas in the code that need to be refactored for accessibility.
-2. Make the necessary changes to improve the code structure and readability.
-3. Test the website to ensure it meets the specified accessibility criteria.
-4. Submit your completed work according to the submission instructions.
+
+1. Run the application from the command line:
+   - node app.js
+
+
+2. Follow the prompts to customize your SVG logo with text, shapes, colors, and other design elements.
+
+3. Once all inputs are provided, the application will generate an SVG file representing your logo.
+
+4. Open the generated SVG file in a web browser to view your customized logo.
+
 
 ## Contributing
 If you have suggestions or contributions to add, please follow the guidelines listed below. Pull requests will be reviewed in the order that they are received.
