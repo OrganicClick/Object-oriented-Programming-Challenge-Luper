@@ -24,22 +24,25 @@ Even though accessibility is a broad topic that can include complex requirements
 To impress clients, you should always go the extra mile and improve the codebase for long-term sustainability. For example, make sure that all links are functioning correctly. Also, rework the CSS to make it more efficient by consolidating CSS selectors and properties, organizing them to follow the semantic structure of the HTML elements, and including comments before each element or section of the page.
 
 ## User Story
-AS A marketing agency
-I WANT a codebase that follows accessibility standards
-SO THAT our own site is optimized for search engines
+AS a freelance web developer
+I WANT to generate a simple logo for my projects
+SO THAT I don't have to pay a graphic designer
 
 ## Acceptance Criteria
-GIVEN a webpage meets accessibility standards
-WHEN I view the source code
-THEN I find semantic HTML elements
-WHEN I view the structure of the HTML elements
-THEN I find that the elements follow a logical structure independent of styling and positioning
-WHEN I view the image elements
-THEN I find accessible alt attributes
-WHEN I view the heading attributes
-THEN they fall in sequential order
-WHEN I view the title element
-THEN I find a concise, descriptive title
+GIVEN a command-line application that accepts user input
+WHEN I am prompted for text
+THEN I can enter up to three characters
+WHEN I am prompted for the text color
+THEN I can enter a color keyword (OR a hexadecimal number)
+WHEN I am prompted for a shape
+THEN I am presented with a list of shapes to choose from: circle, triangle, and square
+WHEN I am prompted for the shape's color
+THEN I can enter a color keyword (OR a hexadecimal number)
+WHEN I have entered input for all the prompts
+THEN an SVG file is created named `logo.svg`
+AND the output text "Generated logo.svg" is printed in the command line
+WHEN I open the `logo.svg` file in a browser
+THEN I am shown a 300x200 pixel image that matches the criteria I entered
 
 ## Installation
 To work on this challenge, follow these steps:
