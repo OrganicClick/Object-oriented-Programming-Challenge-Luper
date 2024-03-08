@@ -27,21 +27,20 @@ async function generateSVG() {
         }
 
         // Generate SVG content
-            const svgContent = shape.render();
+        const svgContent = shape.render();
 
-            // Write SVG content to file
-            fs.writeFile('logo.svg', svgContent, (err) => {
-                if (err) {
-                    console.error('Error writing SVG to file:', err);
-                } else {
-                    console.log('SVG file saved successfully!');
-                }
-            });
-
-                } catch (error) {
-                    console.error('An error occurred:', error);
-                }
- }
+        // Write SVG content to file
+        fs.writeFile('logo.svg', svgContent, (err) => {
+            if (err) {
+                console.error('Error writing SVG to file:', err);
+            } else {
+                console.log('SVG file saved successfully!');
+            }
+        });
+    } catch (error) {
+        console.error('An error occurred:', error);
+    }
+}
 
 // Call the generateSVG function to start the application
 generateSVG();
