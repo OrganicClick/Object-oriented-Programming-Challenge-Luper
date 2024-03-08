@@ -1,5 +1,5 @@
 // Import the Square class from the shapes module
-const { Square } = require('../lib/shapes');
+const { Square } = require('../Develop/lib/shapes');
 
 // Describe the behavior of the Square class
 describe('Square Class', () => {

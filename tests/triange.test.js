@@ -1,5 +1,5 @@
 // Import the Triangle class from the shapes module
-const { Triangle } = require('../lib/shapes');
+const { Triangle } = require('../Develop/lib/shapes');
 
 // Describe the behavior of the Triangle class
 describe('Triangle Class', () => {
