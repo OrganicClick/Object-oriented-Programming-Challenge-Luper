@@ -1,7 +1,7 @@
 // Import Shape classes and getUserInput function and import fs module to generate SVG logo
 const fs = require('fs');
-const { Circle, Triangle, Square } = require('./Develop/lib/shapes');
-const { getUserInput } = require('./Develop/lib/userInput');
+const { Circle, Triangle, Square } = require('./Develop/lib/shapes.js');
+const { getUserInput } = require('./Develop/lib/userInput.js');
 
 // Main function to generate SVG based on user input
 async function generateSVG() {
