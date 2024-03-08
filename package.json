@@ -10,6 +10,7 @@
   "scripts": {
     "test": "jest"
   },
+  "type": "module",
   "repository": {
     "type": "git",
     "url": "git+https://github.com/OrganicClick/Object-oriented-Programming-Challenge-Luper.git"

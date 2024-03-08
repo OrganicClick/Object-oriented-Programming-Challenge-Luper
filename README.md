@@ -102,6 +102,7 @@ Development was assisted by the following resources:
  - SVG Tutorial - Text (https://developer.mozilla.org/en-US/docs/Web/SVG/Tutorial/Texts)
  - SVG VS Code Extension (https://marketplace.visualstudio.com/items?itemName=jock.svg)
  - Jest Test Tutorial (https://www.testim.io/blog/jest-testing-a-helpful-introductory-tutorial/)
+ - Reference for correcting the package.json file type (https://nodejs.org/api/packages.html)
 
 ## Contact
 To contact the owner of this repo, OrganicClick, please reach out via OrganicClick@exampleemail.com
