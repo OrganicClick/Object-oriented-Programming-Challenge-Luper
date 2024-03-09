@@ -27,11 +27,20 @@ async function generateSVG() {
         }
 
         // Generate SVG content wrapped within <svg> tags
-        const svgContent = `
-            <svg width="200" height="200">
-                ${shape.render()} <!-- Insert dynamically generated SVG content here -->
-            </svg>
-        `;
+        const svgContent = 
+            <svg width="200" height="200" xmlns="http://www.w3.org/2000/svg">
+                <style>
+                    /* Define styles for the SVG elements */
+                    text {
+                        font-family: Arial, sans-serif;
+                        font-size: 20px;
+                        text-anchor: middle; /* Center the text horizontally */
+                        dominant-baseline: central; /* Center the text vertically */
+                }
+                </style>
+                ${shape.render()}
+            </svg>;
+        ;
 
         // Write SVG content to file
         fs.writeFile('logo.svg', svgContent, (err) => {
