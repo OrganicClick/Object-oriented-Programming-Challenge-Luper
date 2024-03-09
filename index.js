@@ -13,13 +13,13 @@ async function generateSVG() {
         let shape;
         switch (userInput.shape) {
             case 'Circle':
-                shape = new Circle(userInput.shapeColor);
+                shape = new Circle(userInput.shapeColor, userInput.text, userInput.textColor);
                 break;
             case 'Triangle':
-                shape = new Triangle(userInput.shapeColor);
+                shape = new Triangle(userInput.shapeColor, userInput.text, userInput.textColor);
                 break;
             case 'Square':
-                shape = new Square(userInput.shapeColor);
+                shape = new Square(userInput.shapeColor, userInput.text, userInput.textColor);
                 break;
             default:
                 console.error('Invalid shape selection');

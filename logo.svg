@@ -1,1 +1,4 @@
-<circle cx="100" cy="100" r="50" fill="Green" />
+
+            <circle cx="100" cy="100" r="50" fill="Green" /> <!-- Circle element -->
+            <text x="100" y="100" fill="undefined">undefined</text> <!-- Text element -->
+        
