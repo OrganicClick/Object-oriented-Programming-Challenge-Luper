@@ -1,9 +1,17 @@
+// Define a base class for shapes with a constructor that accepts a color, text, and text color
+class Shape {
+    constructor(color, text, textColor) {
+        this.color = color; // Set the color property
+        this.text = text; // Set the text property
+        this.textColor = textColor; // Set the text color property
+    }
+}
+
+// Define a class for circles that extends the Shape class
 class Circle extends Shape {
     // Constructor accepts color, text, and text color
     constructor(color, text, textColor) {
-        super(color);
-        this.text = text; // Set the text property
-        this.textColor = textColor; // Set the text color property
+        super(color, text, textColor);
     }
 
     // Render method includes circle and text elements
@@ -15,12 +23,11 @@ class Circle extends Shape {
     }
 }
 
+// Define a class for triangles that extends the Shape class
 class Triangle extends Shape {
     // Constructor accepts color, text, and text color
     constructor(color, text, textColor) {
-        super(color);
-        this.text = text; // Set the text property
-        this.textColor = textColor; // Set the text color property
+        super(color, text, textColor);
     }
 
     // Render method includes polygon and text elements
@@ -32,12 +39,11 @@ class Triangle extends Shape {
     }
 }
 
+// Define a class for squares that extends the Shape class
 class Square extends Shape {
     // Constructor accepts color, text, and text color
     constructor(color, text, textColor) {
-        super(color);
-        this.text = text; // Set the text property
-        this.textColor = textColor; // Set the text color property
+        super(color, text, textColor);
     }
 
     // Render method includes rectangle and text elements
@@ -48,3 +54,6 @@ class Square extends Shape {
         `;
     }
 }
+
+// Export the Circle, Triangle, and Square classes
+module.exports = { Circle, Triangle, Square };
