@@ -26,8 +26,12 @@ async function generateSVG() {
                 return;
         }
 
-        // Generate SVG content
-        const svgContent = shape.render();
+        // Generate SVG content wrapped within <svg> tags
+        const svgContent = `
+            <svg width="200" height="200">
+                ${shape.render()} <!-- Insert dynamically generated SVG content here -->
+            </svg>
+        `;
 
         // Write SVG content to file
         fs.writeFile('logo.svg', svgContent, (err) => {
