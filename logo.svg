@@ -1,13 +1,16 @@
-<svg width="200" height="200" xmlns="http://www.w3.org/2000/svg">
-    <style>
-        /* Define styles for the SVG elements */
-        text {
-            font-family: Arial, sans-serif;
-            font-size: 20px;
-            text-anchor: middle; /* Center the text horizontally */
-            dominant-baseline: central; /* Center the text vertically */
-        }
-    </style>
-    <polygon points="50,50 150,50 100,150" fill="pink" />
-    <text x="100" y="100" fill="white">MNB</text>
-</svg>
+
+        <svg width="200" height="200" xmlns="http://www.w3.org/2000/svg">
+            <style>
+                /* Define styles for the SVG elements */
+                text {
+                    font-family: Arial, sans-serif;
+                    font-size: 20px;
+                    text-anchor: middle; /* Center the text horizontally */
+                    dominant-baseline: central; /* Center the text vertically */
+                }
+            </style>
+            
+            <circle cx="100" cy="100" r="50" fill="Green" /> <!-- Circle element -->
+            <text x="100" y="100" fill="White">SVG</text> <!-- Text element -->
+        
+        </svg>
