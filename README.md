@@ -54,7 +54,7 @@ THEN I am shown a 300x200 pixel image that matches the criteria I entered
 ## Usage
 
 1. Run the application from the command line:
-   - node app.js
+   - node index.js
 
 2. Follow the prompts to customize your SVG logo with text, shapes, colors, and other design elements.
 
