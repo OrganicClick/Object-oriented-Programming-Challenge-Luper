@@ -74,7 +74,6 @@ If you have suggestions or contributions to add, please follow the guidelines li
 ## License
 This challenge is provided under the MIT License. See the [LICENSE](LICENSE) file for details.
 
-## Link to Video Walkthrough
 
 ## Link to Video Walkthrough
 
