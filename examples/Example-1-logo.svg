@@ -10,7 +10,7 @@
                 }
             </style>
             
-            <circle cx="100" cy="100" r="50" fill="Green" /> <!-- Circle element -->
+            <circle cx="100" cy="100" r="50" fill="Blue" /> <!-- Circle element -->
             <text x="100" y="100" fill="White">SVG</text> <!-- Text element -->
         
         </svg>
